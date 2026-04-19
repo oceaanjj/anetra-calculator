@@ -224,8 +224,8 @@ footer{
     .number{
         box-sizing: border-box;
         width: 100%;
-        height: 3.1rem;
-        font-size: clamp(1rem, 4.6vw, 1.35rem);
+        height: 2.85rem;
+        font-size: clamp(0.95rem, 4.2vw, 1.25rem);
         font-family: f1;
         background-image: linear-gradient(to right,#E7E6E0, #F6F2EF);
         border-radius: 10px;
@@ -237,8 +237,8 @@ footer{
     .equal{
         box-sizing: border-box;
         width: 100%;
-        height: 3.1rem;
-        font-size: clamp(1rem, 4.6vw, 1.35rem);
+        height: 2.85rem;
+        font-size: clamp(0.95rem, 4.2vw, 1.25rem);
         font-family: f1;
         margin: 0;
         background-color: #fdd831;
@@ -250,8 +250,8 @@ footer{
     .signs{
         box-sizing: border-box;
         width: 100%;
-        height: 3.1rem;
-        font-size: clamp(1rem, 4.6vw, 1.35rem);
+        height: 2.85rem;
+        font-size: clamp(0.95rem, 4.2vw, 1.25rem);
         font-family: f1;
         margin: 0;
         background-color: #E3859B;
