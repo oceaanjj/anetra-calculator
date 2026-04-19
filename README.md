@@ -12,7 +12,6 @@
   <a href="https://anetra-calculator.vercel.app/">Live Demo</a>
 </p>
 
-## Preview
 
 <p align="center">
   <img src="./img/web.png" alt="ANETRA Calculator website preview" width="500">
