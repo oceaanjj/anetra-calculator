@@ -1,17 +1,17 @@
 @font-face{
     font-family: f1;
-    src: url(../FONT/CreatoDisplay-Black.otf);
+    src: url(../font/CreatoDisplay-Black.otf);
 }
 
 @font-face {
     font-family: f2;
-    src: url(../FONT/DS-DIGIB.TTF);
+    src: url(../font/DS-DIGIB.TTF);
 }
 
 body{
     margin: 0;
     background-repeat: no-repeat;
-    background-image: url(../IMAGE/bg.png);
+    background-image: url(../img/bg.png);
     background-size: contain, cover;
     background-color: #F4F3DB;
 }
@@ -477,4 +477,3 @@ footer{
     }
 
 }
-
