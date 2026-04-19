@@ -15,7 +15,7 @@
 ## Preview
 
 <p align="center">
-  <img src="./img/web.png" alt="ANETRA Calculator website preview" width="900">
+  <img src="./img/web.png" alt="ANETRA Calculator website preview" width="500">
 </p>
 
 ## Live Website
