@@ -1,9 +1,0 @@
-{
-  "redirects": [
-    {
-      "source": "/",
-      "destination": "/CALCULATOR/html/index.html",
-      "permanent": false
-    }
-  ]
-}
