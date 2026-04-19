@@ -1,7 +1,7 @@
 # ANETRA Calculator
 
 <p align="center">
-  <img src="./img/logo.png" alt="ANETRA Calculator logo" width="180">
+  <img src="./img/logo.png" alt="ANETRA Calculator logo" width="300">
 </p>
 
 <p align="center">
