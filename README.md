@@ -1,7 +1,7 @@
 # ANETRA Calculator
 
 <p align="center">
-  <img src="./img/anetra.png" alt="ANETRA Calculator logo" width="180">
+  <img src="img/anetra.png" alt="ANETRA Calculator logo" width="180">
 </p>
 
 <p align="center">
@@ -14,7 +14,9 @@
 
 ## Preview
 
-![ANETRA Calculator website preview](./img/web.png)
+<p align="center">
+  <img src="img/web.png" alt="ANETRA Calculator website preview" width="900">
+</p>
 
 ## Live Website
 
@@ -62,4 +64,3 @@ You can also use the VS Code Live Server extension for easier preview while edit
 ## Developer
 
 **Jovilyn F. Esquerra**  
-
