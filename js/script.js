@@ -52,10 +52,10 @@ function calculate() {
     else if (operator === '-') {
       num1 = num1 - num2;
     } 
-    else if (operator === '×') {
+    else if (operator === '\u00D7') {
       num1 = num1 * num2;
     }
-    else if (operator === '÷') {
+    else if (operator === '\u00F7') {
       num1 = num1 / num2;
     }
     else if(operator === '%'){

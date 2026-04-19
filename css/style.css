@@ -20,7 +20,7 @@ body{
     width: 130px;
 }
 
-#number, #signs, #equal{
+.number, .signs, .equal{
     cursor: pointer;
 }
 
@@ -221,7 +221,7 @@ footer{
         margin-top: 0;
     }
 
-    #number{
+    .number{
         box-sizing: border-box;
         width: 100%;
         height: 3.1rem;
@@ -234,7 +234,7 @@ footer{
         border-right: 4px outset #c6bbbc;
     }
 
-    #equal{
+    .equal{
         box-sizing: border-box;
         grid-column: span 2;
         width: 100%;
@@ -248,7 +248,7 @@ footer{
         border-right: 4px outset #CD888B;
     }
     
-    #signs{
+    .signs{
         box-sizing: border-box;
         width: 100%;
         height: 3.1rem;
@@ -355,7 +355,7 @@ footer{
         margin-top: 0;
     }
 
-    #number{
+    .number{
         box-sizing: border-box;
         width: 100%;
         height: 3.35rem;
@@ -368,7 +368,7 @@ footer{
         border-right: 4px outset #c6bbbc;
     }
 
-    #equal{
+    .equal{
         box-sizing: border-box;
         grid-column: span 2;
         width: 100%;
@@ -382,7 +382,7 @@ footer{
         border-right: 4px outset #CD888B;
     }
     
-    #signs{
+    .signs{
         box-sizing: border-box;
         width: 100%;
         height: 3.35rem;
@@ -468,7 +468,7 @@ footer{
         justify-content: center;
     }
 
-    #number{
+    .number{
         width: 58px;
         height: 36px;
         font-size: 16px;
@@ -480,7 +480,7 @@ footer{
         border-right: 4px outset #c6bbbc;
     }
 
-    #equal{
+    .equal{
         width: 122px;
         height: 36px;
         font-size: 18px;
@@ -492,7 +492,7 @@ footer{
         border-right: 4px outset #CD888B;
     }
     
-    #signs{
+    .signs{
         width: 58px;
         height: 36px;
         font-size: 16px;
@@ -550,7 +550,7 @@ footer{
         box-shadow: inset -24px -1px 40px -13px #DBB4B7;
     }
 
-    #number{
+    .number{
         width: 50px;
         height: 30px;
         font-size: 15px;
@@ -562,7 +562,7 @@ footer{
         border-right: 4px outset #c6bbbc;
     }
 
-    #equal{
+    .equal{
         width: 100px;
         height: 30px;
         font-size: 20px;
@@ -574,7 +574,7 @@ footer{
         border-right: 4px outset #CD888B;
     }
     
-    #signs{
+    .signs{
         width: 50px;
         height: 30px;
         font-size: 15px;
@@ -630,7 +630,7 @@ footer{
         box-shadow: inset -24px -1px 40px -13px #DBB4B7;
     }
 
-    #number{
+    .number{
         width: 80px;
         height: 40px;
         font-size: 20px;
@@ -642,7 +642,7 @@ footer{
         border-right: 4px outset #c6bbbc;
     }
 
-    #equal{
+    .equal{
         width: 180px;
         height: 40px;
         font-size: 20px;
@@ -654,7 +654,7 @@ footer{
         border-right: 4px outset #CD888B;
     }
 
-    #signs{
+    .signs{
         width: 80px;
         height: 40px;
         font-size: 20px;

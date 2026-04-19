@@ -37,39 +37,39 @@
 
                 <div id="calcunum">
                     <div>
-                        <input type="button" value = "AC" onclick = "allClear()" id="number">
-                        <input type="button" value = "DEL" onclick="del()" id="number">
-                        <input type="button" value = "%" onclick = "specialSign()" id="signs">
-                        <input type="button" value = "-" onclick = "calcuSign('-')" id="signs">
+                        <input type="button" value = "AC" onclick = "allClear()" class="number">
+                        <input type="button" value = "DEL" onclick="del()" class="number">
+                        <input type="button" value = "%" onclick = "specialSign()" class="signs">
+                        <input type="button" value = "-" onclick = "calcuSign('-')" class="signs">
                         
                     </div>
 
                     <div>
-                        <input type="button" value = "7" onclick = "keypad('7')" id="number">
-                        <input type="button" value = "8" onclick = "keypad('8')" id="number">
-                        <input type="button" value = "9" onclick = "keypad('9')" id="number">
-                        <input type="button" value = "×" onclick = "calcuSign('×')" id="signs">
+                        <input type="button" value = "7" onclick = "keypad('7')" class="number">
+                        <input type="button" value = "8" onclick = "keypad('8')" class="number">
+                        <input type="button" value = "9" onclick = "keypad('9')" class="number">
+                        <input type="button" value = "&times;" onclick = "calcuSign('\u00D7')" class="signs">
                     </div>
 
                     <div>
-                        <input type="button" value = "4" onclick = "keypad('4')" id="number">
-                        <input type="button" value = "5" onclick = "keypad('5')" id="number">
-                        <input type="button" value = "6" onclick = "keypad('6')" id="number">
-                        <input type="button" value = "÷" onclick = "calcuSign('÷')" id="signs">
+                        <input type="button" value = "4" onclick = "keypad('4')" class="number">
+                        <input type="button" value = "5" onclick = "keypad('5')" class="number">
+                        <input type="button" value = "6" onclick = "keypad('6')" class="number">
+                        <input type="button" value = "&divide;" onclick = "calcuSign('\u00F7')" class="signs">
                     </div>
 
                     <div>
-                        <input type="button" value = "1" onclick = "keypad('1')" id="number">
-                        <input type="button" value = "2" onclick = "keypad('2')" id="number">
-                        <input type="button" value = "3" onclick = "keypad('3')" id="number">
-                        <input type="button" value = "+" onclick = "calcuSign('+')" id="signs">
+                        <input type="button" value = "1" onclick = "keypad('1')" class="number">
+                        <input type="button" value = "2" onclick = "keypad('2')" class="number">
+                        <input type="button" value = "3" onclick = "keypad('3')" class="number">
+                        <input type="button" value = "+" onclick = "calcuSign('+')" class="signs">
 
                     </div>
 
                     <div>
-                        <input type="button" value = "0" onclick = "keypad('0')" id="number">
-                        <input type="button" value = "× 10" onclick = "calcuSign('×10')" id="number">
-                        <input type="button" value = "=" onclick = "calculate()" id="equal">
+                        <input type="button" value = "0" onclick = "keypad('0')" class="number">
+                        <input type="button" value = "&times; 10" onclick = "calcuSign('\u00D710')" class="number">
+                        <input type="button" value = "=" onclick = "calculate()" class="equal">
                     </div>
                 </div>
             </form>
