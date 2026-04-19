@@ -20,7 +20,7 @@ body{
     width: 130px;
 }
 
-#number, #signs, #equal{
+.number, .signs, .equal{
     cursor: pointer;
 }
 
@@ -221,11 +221,11 @@ footer{
         margin-top: 0;
     }
 
-    #number{
+    .number{
         box-sizing: border-box;
         width: 100%;
-        height: 3.1rem;
-        font-size: clamp(1rem, 4.6vw, 1.35rem);
+        height: 2.85rem;
+        font-size: clamp(0.95rem, 4.2vw, 1.25rem);
         font-family: f1;
         background-image: linear-gradient(to right,#E7E6E0, #F6F2EF);
         border-radius: 10px;
@@ -234,12 +234,11 @@ footer{
         border-right: 4px outset #c6bbbc;
     }
 
-    #equal{
+    .equal{
         box-sizing: border-box;
-        grid-column: span 2;
         width: 100%;
-        height: 3.1rem;
-        font-size: clamp(1rem, 4.6vw, 1.35rem);
+        height: 2.85rem;
+        font-size: clamp(0.95rem, 4.2vw, 1.25rem);
         font-family: f1;
         margin: 0;
         background-color: #fdd831;
@@ -248,11 +247,11 @@ footer{
         border-right: 4px outset #CD888B;
     }
     
-    #signs{
+    .signs{
         box-sizing: border-box;
         width: 100%;
-        height: 3.1rem;
-        font-size: clamp(1rem, 4.6vw, 1.35rem);
+        height: 2.85rem;
+        font-size: clamp(0.95rem, 4.2vw, 1.25rem);
         font-family: f1;
         margin: 0;
         background-color: #E3859B;
@@ -355,7 +354,7 @@ footer{
         margin-top: 0;
     }
 
-    #number{
+    .number{
         box-sizing: border-box;
         width: 100%;
         height: 3.35rem;
@@ -368,9 +367,8 @@ footer{
         border-right: 4px outset #c6bbbc;
     }
 
-    #equal{
+    .equal{
         box-sizing: border-box;
-        grid-column: span 2;
         width: 100%;
         height: 3.35rem;
         font-size: clamp(1.05rem, 3vw, 1.3rem);
@@ -382,7 +380,7 @@ footer{
         border-right: 4px outset #CD888B;
     }
     
-    #signs{
+    .signs{
         box-sizing: border-box;
         width: 100%;
         height: 3.35rem;
@@ -464,40 +462,47 @@ footer{
     }
 
     #calcunum > div{
-        display: flex;
+        display: grid;
+        grid-template-columns: 58px 58px 58px 58px;
         justify-content: center;
+        gap: 6px;
+        margin-top: 4px;
     }
 
-    #number{
+    #calcunum > div:first-child{
+        margin-top: 0;
+    }
+
+    .number{
         width: 58px;
         height: 36px;
         font-size: 16px;
         font-family: f1;
         background-image: linear-gradient(to right,#E7E6E0, #F6F2EF);
         border-radius: 10px;
-        margin: 2px 3px 2px 3px;
+        margin: 0;
         border-bottom: 4px outset #c6bbbc;
         border-right: 4px outset #c6bbbc;
     }
 
-    #equal{
-        width: 122px;
+    .equal{
+        width: 58px;
         height: 36px;
         font-size: 18px;
         font-family: f1;
-        margin: 2px 3px 2px 3px;
+        margin: 0;
         background-color: #fdd831;
         border-radius: 8px;
         border-bottom: 4px outset #CD888B;
         border-right: 4px outset #CD888B;
     }
     
-    #signs{
+    .signs{
         width: 58px;
         height: 36px;
         font-size: 16px;
         font-family: f1;
-        margin: 2px 3px 2px 3px;
+        margin: 0;
         background-color: #E3859B;
         color: #FEF2F4;
         border-radius: 8px;
@@ -550,36 +555,48 @@ footer{
         box-shadow: inset -24px -1px 40px -13px #DBB4B7;
     }
 
-    #number{
+    #calcunum > div{
+        display: grid;
+        grid-template-columns: 50px 50px 50px 50px;
+        justify-content: center;
+        gap: 4px;
+        margin-top: 4px;
+    }
+
+    #calcunum > div:first-child{
+        margin-top: 0;
+    }
+
+    .number{
         width: 50px;
         height: 30px;
         font-size: 15px;
         font-family: f1;
         background-image: linear-gradient(to right,#E7E6E0, #F6F2EF);
         border-radius: 10px;
-        margin: 2px 2px 2px 2px;
+        margin: 0;
         border-bottom: 4px outset #c6bbbc;
         border-right: 4px outset #c6bbbc;
     }
 
-    #equal{
-        width: 100px;
+    .equal{
+        width: 50px;
         height: 30px;
         font-size: 20px;
         font-family: f1;
-        margin: 2px 2px 2px 2px;
+        margin: 0;
         background-color: #fdd831;
         border-radius: 8px;
         border-bottom: 4px outset #CD888B;
         border-right: 4px outset #CD888B;
     }
     
-    #signs{
+    .signs{
         width: 50px;
         height: 30px;
         font-size: 15px;
         font-family: f1;
-        margin: 2px 2px 2px 2px;
+        margin: 0;
         background-color: #E3859B;
         color: #FEF2F4;
         border-radius: 8px;
@@ -630,36 +647,48 @@ footer{
         box-shadow: inset -24px -1px 40px -13px #DBB4B7;
     }
 
-    #number{
+    #calcunum > div{
+        display: grid;
+        grid-template-columns: 80px 80px 80px 80px;
+        justify-content: center;
+        gap: 12px;
+        margin-top: 4px;
+    }
+
+    #calcunum > div:first-child{
+        margin-top: 0;
+    }
+
+    .number{
         width: 80px;
         height: 40px;
         font-size: 20px;
         font-family: f1;
         background-image: linear-gradient(to right,#E7E6E0, #F6F2EF);
         border-radius: 10px;
-        margin: 2px 6px 2px 6px;
+        margin: 0;
         border-bottom: 4px outset #c6bbbc;
         border-right: 4px outset #c6bbbc;
     }
 
-    #equal{
-        width: 180px;
+    .equal{
+        width: 80px;
         height: 40px;
         font-size: 20px;
         font-family: f1;
-        margin: 2px 6px 2px 6px;
+        margin: 0;
         background-color: #fdd831;
         border-radius: 8px;
         border-bottom: 4px outset #CD888B;
         border-right: 4px outset #CD888B;
     }
 
-    #signs{
+    .signs{
         width: 80px;
         height: 40px;
         font-size: 20px;
         font-family: f1;
-        margin: 2px 6px 2px 6px;
+        margin: 0;
         background-color: #E3859B;
         color: #FEF2F4;
         border-radius: 8px;
